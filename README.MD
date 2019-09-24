@@ -1,6 +1,6 @@
 # SpringBoot Data Redis Example
 
-This project is an example of SpringBoot Data Redis
+This project is an example of SpringBoot Data Redis.
 
 # Technologies
 
@@ -19,7 +19,8 @@ This project is an example of SpringBoot Data Redis
 ```
 
 # How to run
-You can test by using curl, URL, Swagger
+You can test by using curl, URL, Swagger.
+
 **Curl**
 ```groovy
     curl -X GET --header 'Accept: application/json' 'http://localhost:8081/api/user/userid'
