@@ -18,10 +18,8 @@ This project is an example of SpringBoot Data Redis
     compile group: 'it.ozimov', name: 'embedded-redis', version: '0.7.1'
 ```
 
-
+# How to run
 You can test by using curl, URL, Swagger
-
-# How to Run
 **Curl**
 ```groovy
     curl -X GET --header 'Accept: application/json' 'http://localhost:8081/api/user/userid'
@@ -38,8 +36,7 @@ You can test by using curl, URL, Swagger
     http://localhost:8081/swagger-ui.html
 ```
 
-# Run test
-
+# How to run test
 The repository contains some test cases to cover both api test and repository test.
 
     ./gradlew test
