@@ -24,13 +24,13 @@ You can test by using curl, URL, Swagger
 # How to Run
 **Curl**
 ```groovy
-    curl -X GET --header 'Accept: application/json' 'http://localhost:8081/api/user/userId'
+    curl -X GET --header 'Accept: application/json' 'http://localhost:8081/api/user/userid'
 ```
 
 **Request URL**
 ```groovy
     http://localhost:8081/api/user
-    http://localhost:8081/api/user/userId
+    http://localhost:8081/api/user/userid
 ```
 
 **Swagger**
