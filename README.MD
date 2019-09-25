@@ -1,6 +1,7 @@
 # SpringBoot Data Redis Example
 
-This project is an example of SpringBoot Data Redis.
+This project is an example of SpringBoot Data Redis.<br>
+Springboot, Redis, Java8을 이용하여 만든 개인 프로젝트 입니다.
 
 # Technologies
 
