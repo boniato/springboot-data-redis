@@ -6,8 +6,8 @@ Springboot, Redis, Java8을 이용하여 만든 개인 프로젝트 입니다.
 # Technologies
 
 * [Java 8](http://java.oracle.com)
-* [embedded gradle](https://gradle.org/)
-* [spring-boot](http://projects.spring.io/spring-boot/)
+* [gradle 4](https://gradle.org/)
+* [spring-boot 2.x](http://projects.spring.io/spring-boot/)
 
 # Redis library
 **build.gradle**
