@@ -49,3 +49,4 @@ You can test by using curl, URL, Swagger.
 The repository contains some test cases to cover both api test and repository test.
 
     ./gradlew test
+    
