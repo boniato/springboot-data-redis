@@ -18,7 +18,7 @@ import java.util.List;
 @Api(value = "/api", description = "user", tags = {"User"})
 @ApiResponses(value = {
     @ApiResponse(code = 400, message = "Wrong Type Parameter"),
-    @ApiResponse(code = 404, message = "Does not exists users"),
+    @ApiResponse(code = 404, message = "Does not exists user"),
     @ApiResponse(code = 500, message = "Server Error")})
 public class UserController {
 
