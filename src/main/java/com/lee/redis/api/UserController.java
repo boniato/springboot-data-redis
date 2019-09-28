@@ -33,14 +33,14 @@ public class UserController {
     }
 
     @ApiOperation(value = "Getting an user information by user ID",
-                  notes = "This API is to get an user information by user ID")
+                  notes = "This API is to get user information by user ID")
     @GetMapping(value = "/user/{id}")
     public User getUser(@PathVariable("id") String id) {
         return userService.findById(id);
     }
 
     @ApiOperation(value = "Saving an user information",
-                  notes = "This API is to save an user information")
+                  notes = "This API is to save user information")
     @PostMapping(value = "/user")
     public User save(@RequestBody User user) {
         return userService.save(user);
